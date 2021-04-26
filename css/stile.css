@@ -33,20 +33,79 @@ main
 
 .riga
 {
-
    float: left;
    width: 32%;
-
 }
 
 .rettangolo
 {
     height: 450px;
-    background-color: brown;
     margin-left: 1%;
     margin-top: 1%;
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
+
+.f1
+{
+    background-image: url(../img/1.webp);
+}
+.f1:hover
+{
+    background-image: url(../img/1-hover.webp);
+}
+
+
+.f2
+{
+    background-image: url(../img/2.webp);
+}
+.f2:hover
+{
+    background-image: url(../img/2-hover.webp);
+}
+
+
+.f3
+{
+    background-image: url(../img/3.webp);
+}
+.f3:hover
+{
+    background-image: url(../img/3-hover.webp);
+}
+
+
+.f4
+{
+    background-image: url(../img/4.webp);
+}
+.f4:hover
+{
+    background-image: url(../img/4-hover.webp);
+}
+
+
+.f5
+{
+    background-image: url(../img/5.webp);
+}
+.f5:hover
+{
+    background-image: url(../img/5-hover.webp);
+}
+
+
+.f6
+{
+    background-image: url(../img/6.webp);
+}
+.f6:hover
+{
+    background-image: url(../img/6-hover.webp);
+}
+
 
 .cuore
 {
@@ -56,6 +115,7 @@ main
     position: absolute;
     top: 2%;
     right: 1%;
+    content: "<3";
 }
 
 .absolute
@@ -65,15 +125,22 @@ main
     bottom: 2%;
 }
 
-.fl
-{
-    float: left;
-}
-
 .testo
 {
     position: relative;
     margin-left: 1%;
+    height: 100px;
+    text-align: center;
 
+}
+
+.absolute :first-child
+{
+    background-color: red;
+}
+
+.absolute :last-child
+{
+    background-color: green;
 }
 
